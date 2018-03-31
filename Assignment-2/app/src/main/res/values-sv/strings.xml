@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- ************************************ -->
+    <string name="app_name">Assignment 2</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="popup_cancel">Avbryt</string>
+    <string name="group_name">Grupp namn</string>
+    <!-- ************************************ -->
+
+    <!-- String tags related to RecyclerView -->
+    <string name="list_popup_name">Namn</string>
+    <string name="list_popup_unsubscribe">Avprenumerera</string>
+    <string name="list_popup_title">Skriv in ditt namn</string>
+    <!-- *********************************** -->
+
+    <!-- String tags related to popup menu in GMap -->
+    <string name="map_popup_title">Välj en grupp</string>
+    <!-- ***************************************** -->
+
+    <!-- String tags related to DrawerLayout -->
+    <string name="drawer_open">Drawer_Opened</string>
+    <string name="drawer_closed">Drawer_Closed</string>
+    <!-- *********************************** -->
+
+    <!-- String tags related to DrawerPopUp -->
+    <string name="drawer_popup_title">Skapa en grupp</string>
+    <string name="drawer_popup_group">Grupp namn</string>
+    <string name="drawer_popup_add">Skapa</string>
+    <string name="drawer_popup_nickname">Namn</string>
+    <!-- ********************************** -->
+
+    <!-- String tags related to NavigationMenu -->
+    <string name="menu_add">Skapa en grupp</string>
+    <string name="menu_gmap">Google Maps</string>
+    <string name="menu_groups">Mina grupper</string>
+    <string name="menu_swe">Swe</string>
+    <string name="menu_eng">Eng</string>
+
+    <!-- ************************************* -->
+
+</resources>

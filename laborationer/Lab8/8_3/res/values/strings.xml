@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">F8GoogleMaps</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="btn_add_marker">Add marker</string>
+    <string name="btn_add_thumbnail">Add thumbnail</string>
+</resources>

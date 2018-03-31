@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:id="@+id/mainmenu"
+        android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/drawer_add_group"
+            android:checked="false"
+            android:title="@string/menu_add" />
+
+        <item
+            android:id="@+id/drawer_gmap"
+            android:checked="false"
+            android:title="@string/menu_gmap" />
+
+        <item
+            android:id="@+id/drawer_my_groups"
+            android:checked="false"
+            android:title="@string/menu_groups" />
+
+        <item
+            android:id="@+id/drawer_swe"
+            android:checked="false"
+            android:title="@string/menu_swe" />
+
+        <item
+            android:id="@+id/drawer_eng"
+            android:checked="false"
+            android:title="@string/menu_eng" />
+
+    </group>
+
+</menu>

@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">HowTo</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="what_to_do">Att starta en Activity</string>
+    <string name="content">
+Skapa en Intent:\n
+Intent i = new Intent(this,ActivityToStart.class);\n\n
+Starta Activity:\n
+startActivity(i);
+</string>
+    <string name="what_to_do2">Att lägga till data i en Intent</string>
+    <string name="content2">
+Skapa en Intent:\n
+Intent i = new Intent(this,ActivityToStart.class);\n\n
+Infoga data:\n
+i.putExtra("Age", 23);\n
+i.putExtra("Name", "Eva");
+</string>
+    <string name="what_to_do3">Avläsa data i en ny Activity</string>
+    <string name="content3">
+Hämta referens till Intent:\n
+Intent i = getIntent();\n\n
+Avläsa data:\n
+int age = i.getIntExtra("Age");\n
+String name = i.getStringExtra("Name");
+</string>
+    <string name="btnPrevious">Föregående</string>
+    <string name="btnNext">Nästa</string>
+</resources>

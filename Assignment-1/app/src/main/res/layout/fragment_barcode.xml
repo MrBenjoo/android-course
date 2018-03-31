@@ -1,0 +1,89 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey_900"
+    tools:context="com.example.benjo.personal_finance_app.fragments.BarcodeFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <TextView
+            android:id="@+id/transaction_barcode"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:gravity="center"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+
+        <EditText
+            android:id="@+id/transaction_et_title"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/shape_et_bg"
+            android:gravity="center"
+            android:layout_below="@id/transaction_barcode"
+            android:hint="@string/transaction_hint_title"
+            android:inputType="textPersonName"
+            android:textColor="@color/white"
+            android:textColorHint="@color/grey_500" />
+
+        <EditText
+            android:id="@+id/transaction_et_amount"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:layout_below="@id/transaction_et_title"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/shape_et_bg"
+            android:gravity="center"
+            android:hint="@string/transaction_hint_amount"
+            android:inputType="number"
+            android:textColor="@color/white"
+            android:textColorHint="@color/grey_500" />
+
+        <Button
+            android:id="@+id/transaction_btn_date"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/transaction_et_amount"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:background="@drawable/shape_btn_transaction"
+            android:text="@string/transaction_btn_date"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/transaction_btn_category"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/transaction_btn_date"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/shape_btn_transaction"
+            android:text="Select Category"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/transaction_btn_add"
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/transaction_btn_category"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/shape_btn_transaction"
+            android:text="@string/transaction_btn_add"
+            android:textColor="@color/white" />
+
+
+
+    </RelativeLayout>
+
+</ScrollView>

@@ -1,0 +1,63 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey_900"
+    tools:context="com.example.benjo.personal_finance_app.activities.LoginActivity"
+    android:layout_centerVertical="true">
+
+
+    <EditText
+        android:id="@+id/frag_reg_et_name"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="220dp"
+        android:background="@drawable/shape_et_bg"
+        android:gravity="center"
+        android:hint="Name"
+        android:inputType="textPersonName"
+        android:textColor="@color/white"
+        android:textColorHint="@color/grey_500" />
+
+    <EditText
+        android:id="@+id/frag_reg_et_pass"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/frag_reg_et_name"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/shape_et_bg"
+        android:gravity="center"
+        android:hint="Password"
+        android:inputType="textPersonName"
+        android:textColor="@color/white"
+        android:textColorHint="@color/grey_500" />
+
+
+    <Button
+        android:id="@+id/frag_reg_btn_reg"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/frag_reg_et_pass"
+        android:layout_marginStart="201dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/grey_800"
+        android:text="Register"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/frag_reg_btn_back"
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/frag_reg_et_pass"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="20dp"
+        android:background="@color/grey_800"
+        android:text="Back"
+        android:textColor="@color/white" />
+
+
+
+
+</RelativeLayout>

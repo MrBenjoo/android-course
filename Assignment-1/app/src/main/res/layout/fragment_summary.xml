@@ -1,0 +1,26 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/grey_900"
+    tools:context="com.example.benjo.personal_finance_app.fragments.SummaryFragment">
+
+    <com.example.benjo.personal_finance_app.CustomTextView
+        android:id="@+id/frag_sum_tv_welcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:alpha="0.7"
+        android:layout_marginTop="20dp"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+
+    <com.github.mikephil.charting.charts.PieChart
+        android:id="@+id/frag_sum_pie_chart"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/frag_sum_tv_welcome" />
+
+</RelativeLayout>

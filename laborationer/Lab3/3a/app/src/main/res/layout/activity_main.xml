@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.benjo.lab3a.MainActivity">
+
+    <fragment
+        android:id="@+id/viewerFragment"
+        android:name="com.example.benjo.lab3a.ViewerFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout="@layout/fragment_viewer">
+    </fragment>
+
+    <fragment
+        android:id="@+id/inputFragment"
+        android:name="com.example.benjo.lab3a.InputFragment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:layout="@layout/fragment_input"
+        android:layout_below="@id/viewerFragment">
+    </fragment>
+
+</RelativeLayout>

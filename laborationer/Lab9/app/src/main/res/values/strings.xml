@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">F9FragmentNavigation4</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="btnFrag1">Fragment 1</string>
+    <string name="btnFrag2">Fragment 2</string>
+    <string name="btnFrag3">Fragment 3</string>
+    <string name="tvFrag1">Fragment 1</string>
+    <string name="tvFrag2">Fragment 2</string>
+    <string name="tvFrag3">Fragment 3</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
